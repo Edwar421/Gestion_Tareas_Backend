@@ -6,6 +6,7 @@ locals {
     DB_NAME            = var.db_name
     DB_USER            = var.db_username
     DB_PASSWORD        = var.db_password
+    DB_SSL             = "true"
     JWT_SECRET         = var.jwt_secret
     JWT_REFRESH_SECRET = var.jwt_refresh_secret
   }
