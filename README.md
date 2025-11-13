@@ -26,7 +26,7 @@ Backend API construido con Node.js, Express, TypeScript y TypeORM, desplegado en
 ### 1. Instalar dependencias
 
 ```bash
-npm install
+npm install 
 ```
 
 ### 2. Configurar variables de entorno
