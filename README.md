@@ -4,7 +4,7 @@ Backend API construido con Node.js, Express, TypeScript y TypeORM, desplegado en
 
 ## 🚀 Tecnologías
 
-- **Node.js 20.x**
+- **Node.js 18.x**
 - **Express.js** - Framework web
 - **TypeScript** - Tipado estático
 - **TypeORM** - ORM para PostgreSQL
@@ -15,7 +15,7 @@ Backend API construido con Node.js, Express, TypeScript y TypeORM, desplegado en
 
 ## 📋 Requisitos Previos
 
-- Node.js 20.x o superior
+- Node.js 18.x o superior
 - PostgreSQL (para desarrollo local)
 - AWS CLI configurado
 - Terraform 1.6.0 o superior
@@ -77,10 +77,6 @@ Configura los siguientes secrets en tu repositorio de GitHub:
 - `AWS_ACCESS_KEY_ID` - Access Key ID de AWS
 - `AWS_SECRET_ACCESS_KEY` - Secret Access Key de AWS
 
-### Variables de Terraform
-- `TF_VAR_JWT_SECRET` - Secret para JWT
-- `TF_VAR_DB_USERNAME` - Usuario de la base de datos RDS
-- `TF_VAR_DB_PASSWORD` - Contraseña de la base de datos RDS
 
 ## 📁 Estructura del Proyecto
 
@@ -152,15 +148,3 @@ El pipeline de GitHub Actions:
 - El estado de Terraform se guarda en S3: `gestion-tareas-terraform-state-90968`
 - Los logs de Lambda se retienen por 7 días en CloudWatch
 - SSL está deshabilitado para desarrollo local, habilitado en producción
-
-## 🤝 Contribuir
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-ISC
