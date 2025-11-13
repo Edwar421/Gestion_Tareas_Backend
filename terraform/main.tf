@@ -12,7 +12,7 @@ terraform {
     bucket       = "gestion-tareas-tf-state"
     key          = "terraform.tfstate"
     region       = "us-east-1"
-    dynamodb_table = "backend-kata-terraform-locks"
+    dynamodb_table = "gestion-tareas-terraform-locks"
     encrypt      = true
   }
 }
