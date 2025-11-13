@@ -37,7 +37,7 @@ Crea un archivo `.env` basado en `.env.example`:
 # Database
 DB_HOST=localhost
 DB_PORT=5432
-DB_USERNAME=postgres
+DB_USER=postgres
 DB_PASSWORD=tu_password
 DB_NAME=gestion_tareas
 DB_SSL=false
